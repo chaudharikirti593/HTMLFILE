@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Details </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(233, 105, 131);">
+    <div class="navbar">
+        <div class="logo">
+            <img src="name.jpeg" width="180px" height="125px"style="border-radius: 9px; padding:3px;">     
+            </div>
+           <div class="name"> Women Online Shopping</div>
+          <img src="th (1).jpeg" width="165px" height="125px"style="border-radius: 13px; padding:4px;  float: right;">
+           <img src="th5.jpeg" width="150px" height="125px"style="border-radius: 13px; padding:4px;  float: right;">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="">Product</a> 
+                <ul class="dropdown">
+                 <li><a href="saree.html">Saree</a></li>
+                 <li><a href="salwarSuits.html">Salwar suits</a></li>
+                 <li><a href="lehanga.html">Lehenga</a></li>
+                 <li><a href="westernWear.html">Western Wear</a></li>
+                </ul>
+                </li>
+                <li><a href="aboutUs.html" target="_blank">About</a></li>
+                <li><a href="contactUs.html" target="_blank">Contact</a></li>
+                <li><a href="Account.html" target="_blank">Account</a></li>
+            </ul>
+         </nav>
+  <header>
+        <div class="pcontainer">
+            <div class="left">
+                <h3>Billing Address</h3>
+                <form>
+                    Full Name
+                    <input type="text" placeholder="Enter your name"> 
+                    Email
+                   <input type="text" placeholder="Enter your Email"> 
+                   Address
+                    <input type="text" placeholder="Enter your Address">
+                   City
+                   <input type="text" placeholder="Enter your City"> 
+                   <div id="zip">
+                    <label>
+                        State
+                        <select>
+                            <option>Choose State</option>
+                            <option>Maharashtra</option>
+                            <option>Bihar</option>
+                            <option>Kerla</option>
+                            <option>Assam</option>
+                        </select>
+                    </label>
+                    Pin Code
+                    <input type="text"placeholder="414202">
+                   </div>
+                </form>
+            </div>
+            <div class="right">
+                <h3>Payment Details</h3>
+                <form>
+                       Accepted Cards
+                       <br>
+                  <img src="card1.jpeg" width="10%">
+                  <img src="card2.jpeg"  width="12%" height="25px">
+                  <img src="card3.jpeg"  width="12%" height="25px"> 
+                  <br>
+                  <br>
+                      Card Number
+                     <input type="text" placeholder="Enter your Card Number">
+                     Exp Month
+                    <input type="text" placeholder="Enter Month"> 
+                    <div id="zip">
+                     <label>
+                         Exp Year
+                         <select>
+                             <option>Choose Year</option>
+                             <option>2022</option>
+                             <option>2023</option>
+                             <option>2024</option>
+                             <option>2025</option>
+                         </select>
+                     </label>
+                    </div>
+                </form>
+                 <button onclick="fun()">Procced to Pay</button>
+                  <script>
+                    function fun(){
+                        alert("Your Order and Payment is Successful");
+                    }
+                  </script>
+            </div>
+        </div>
+    </header>
+    <footer class="footer">
+        <div class="container">
+         <div class="row">
+           <div class="footer-col">
+             <h4>company</h4>
+             <ul>
+               <li><a href="aboutUs.html">about us</a></li>
+               <li><a href="#">our services</a></li>
+               <li><a href="#">privacy policy</a></li>
+               <li><a href="#">affiliate program</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>get help</h4>
+             <ul>
+               <li><a href="#">FAQ</a></li>
+               <li><a href="#">shipping</a></li>
+               <li><a href="#">returns</a></li>
+               <li><a href="#">order status</a></li>
+               <li><a href="#">payment options</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>online shop</h4>
+             <ul>
+               <li><a href="saree.html">Sarees</a></li>
+               <li><a href="lehanga.html">Lehangas</a></li>
+               <li><a href="salwarSuits.html">Salawar Suits</a></li>
+               <li><a href="westernWear.html">Westerns</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>follow us</h4>
+             <div class="social-links">
+               <a href="#"><img src="5968764.png" height="40px" width="40px"></img></a>
+               <a href="#"><img src="2168336.png" height="40px" width="40px"></i></a>
+               <a href="#"><img src="717392.png" height="40px" width="40px"></i></a>
+               <a href="#"><img src="1384014.png" height="40px" width="40px"></i></a>
+             </div>
+           </div>
+         </div>
+        </div>
+     </footer>
+</body>
+</html>
